@@ -1,0 +1,21 @@
+.section-products {
+  margin: 0 3rem;
+  transform: translateY(-60vh);
+}
+
+.products {
+  &__intro {
+    padding: 2rem 0;
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+
+  &__category-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+  }
+}
